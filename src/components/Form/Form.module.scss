@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+
+    &__span {
+        margin: 0px 16px;
+    }
+}
+
+.result {
+    text-align: center;
+    font-size: 18px;
+
+    span {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+}
+
+.throwError {
+    text-align: center;
+    color: rgb(212, 0, 60);
+}
